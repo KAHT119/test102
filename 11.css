@@ -1,0 +1,62 @@
+ body {
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   justify-content: center;
+   display: flex;
+   background-image: linear-gradient( 180deg, red, black);
+ }
+
+div {
+  width: 300px;
+  height: 180px;
+  transition: height 1s;
+  background-color: rgb(116, 4, 4);
+  border-radius: 30px;
+}
+
+div:hover {
+  height: 600px;
+ }
+ 
+#tagb {
+  width: 300px;
+  height: 180px;
+}
+
+
+
+.container1 .card .content
+{
+  top: 20%;
+  padding: -20px -20px -20px -40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+.container1 .card:hover .content
+{
+  left: 0%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.container1 .card .content h2
+{
+  color: rgb(247, 247, 247);
+  font-size: 3em;
+  line-height: 2.5em;
+  padding: 70px;
+}
+
+.container1 .card .content p
+{
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  padding: 20px;
+  justify-content:space-between;
+}
+
+
+
